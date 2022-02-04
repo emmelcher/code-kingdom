@@ -1,15 +1,10 @@
 /* ----- Index CSS ----- */
-
-body{
-  /* background-color: #f2f2f2; */
-}
-
 .banner{
-  background-image: url("D:/Senior Project/GitHub/directory/code-kingdom/extra/images/day-clouds.gif");
+  background-image: url("D:/Senior Project/GitHub/directory/ck-extras/extra/images/day-clouds.gif");
   background-color: #cccccc;
   /* align-items: center; */
   height: 20%;
-  width: 100%;
+  width: 92.5%;
   padding: 60px;
   margin: 10px;
 }
@@ -33,11 +28,6 @@ body{
   padding: 30px;
 }
 
-.body{
-    align-items: center;
-  /*  display: inline-flex; */
-}
-
 h1{
   font-family: Arial;
 }
@@ -52,26 +42,43 @@ h1{
   width: 80px;
 }
 
-.school-info{
-  font-family: Arial;
-  font-size: 16px;
+#schoolH{
+
 }
 
-#school-address{
-  align-self: left;
+.school-info{
   font-family: Arial;
+  font-size: 20px;
+}
+
+#school-building{
+  height: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: black;
+  border: 30px;
+}
+
+.sch-info-div{
+  margin-left: 600px;
+  margin-top: 75px;
+  font-size: 18px;
 }
 
 .school-location{
-  align-self: right;
-  border: 15px;
-  border-color: black;
+  margin-right: 400px;
+  margin-bottom: 50px;
+  margin-top: -335px;
 }
 
 #fasdTiger{
-  height: 100px;
-  width: 100px;
-  align: right;
+  height: 130px;
+  width: 130px;
 }
 
 /* ----- About Me CSS ----- */
@@ -128,3 +135,12 @@ ul.club-desc > li:before {
 }
 
 /* ----- Resources CSS ----- */
+.resourcesH{
+  font-family: Arial;
+  font-size: 24px;
+}
+
+#resources{
+  font-family: Arial;
+  font-size: 16px;
+}
