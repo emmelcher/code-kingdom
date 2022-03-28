@@ -1,12 +1,23 @@
-/* ----- Index CSS ----- */
+/* ----- Header CSS ----- */
 .banner{
   background-image: url("D:/Senior Project/GitHub/directory/ck-extras/extra/images/day-clouds.gif");
-  background-color: #cccccc;
-  /* align-items: center; */
-  height: 20%;
-  width: 92.5%;
-  padding: 60px;
-  margin: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.banner li{
+  display: inline-block;
+}
+
+.banner a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 #menus a:link, #menus a:visited{
@@ -28,6 +39,7 @@
   padding: 30px;
 }
 
+/* ----- Index CSS ----- */
 h1{
   font-family: Arial;
 }
@@ -48,12 +60,11 @@ h1{
 
 .school-info{
   font-family: Arial;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #school-building{
-  height: 400px;
-  width: 600px;
+  width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -65,13 +76,13 @@ h1{
 }
 
 .sch-info-div{
-  margin-left: 600px;
-  margin-top: 75px;
+  margin-left: 20%;
+  margin-top: 8%;
   font-size: 18px;
 }
 
 .school-location{
-  margin-right: 400px;
+  margin-right: 20%;
   margin-bottom: 50px;
   margin-top: -335px;
 }
@@ -85,12 +96,28 @@ h1{
 .aboutmeH{
   font-family: Arial;
   font-size: 24px;
+  text-align: center;
 }
 
 #aboutme, #certificates, #contact-info{
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
 }
+
+#certificates{
+  left-margin: auto;
+  right-margin: auto;
+}
+
+td{
+  text-align: center;
+  padding: 18px;
+  width: 30%;
+}
+
 /* ----- Courses CSS ----- */
 .coursesH{
   font-family: Arial;
@@ -99,7 +126,7 @@ h1{
 
 #courses{
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
 }
 /* ----- Clubs CSS ----- */
 ul {
@@ -110,28 +137,34 @@ ul.club-desc {
   list-style-type: none;
 }
 
+/*
 ul.club-desc > li {
   text-indent: -20px;
 }
 
 ul.club-desc > li:before {
-  content: "-";
+   content: "-";
   text-indent: -20px;
 }
+*/
+
 
 .club-titles{
   font-family: Arial;
   font-size: 20px;
+  list-style-type: none;
 }
 
-.club-desc{
+.club-desc > li{
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
+  display: inline-block;
 }
 
-#clubs{
+#clubsH{
   font-family: Arial;
-  font-size: 24px;
+  font-size: 28px;
+  text-align: center;
 }
 
 /* ----- Resources CSS ----- */
@@ -142,5 +175,26 @@ ul.club-desc > li:before {
 
 #resources{
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#resources li{
+  display: inline-block;
+}
+
+#resources  a{
+  display: block;
+  color: #3a3b3c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+#resources img{
+  height: 80px;
+  width: 80px;
 }
