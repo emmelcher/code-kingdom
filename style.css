@@ -1,6 +1,6 @@
 /* ----- Header CSS ----- */
 .banner{
-  background-image: url("D:/Senior Project/GitHub/directory/ck-extras/extra/images/day-clouds.gif");
+  background-image: url("G:/Senior Project/GitHub/directory/ck-extras/extra/images/day-clouds.gif");
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -131,7 +131,9 @@ td{
 #courses{
   font-family: Arial;
   font-size: 18px;
+  list-style-type: none;
 }
+
 /* ----- Clubs CSS ----- */
 ul {
   margin: 0;
@@ -163,6 +165,9 @@ ul.club-desc > li:before {
   font-family: Arial;
   font-size: 18px;
   display: inline-block;
+  text-align: justify;
+  margin-right: 100px;
+  padding: auto;
 }
 
 #clubsH{
@@ -175,15 +180,18 @@ ul.club-desc > li:before {
 .resourcesH{
   font-family: Arial;
   font-size: 24px;
+  padding: auto;
+  text-align: center;
 }
 
 #resources{
   font-family: Arial;
   font-size: 18px;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
   overflow: hidden;
+  text-align: center;
 }
 
 #resources li{
