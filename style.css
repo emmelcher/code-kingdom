@@ -44,7 +44,7 @@ h1{
   font-family: Arial;
 }
 
-#welcome{
+.welcomeH, #welcome{
   font-size: 24px;
   font-family: Arial;
 }
@@ -55,7 +55,9 @@ h1{
 }
 
 #schoolH{
-
+  font-family: Arial;
+  font-size: 28px;
+  text-align: center;
 }
 
 .school-info{
@@ -99,7 +101,7 @@ h1{
 /* ----- About Me CSS ----- */
 .aboutmeH{
   font-family: Arial;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
 }
 
@@ -123,28 +125,31 @@ td{
 }
 
 /* ----- Courses CSS ----- */
-.coursesH{
+#coursesH{
   font-family: Arial;
-  font-size: 24px;
+  font-size: 28px;
+  text-align: center;
 }
 
-#course-titles, .course-desc {
+.course-titles, .course-desc {
   text-align: justify;
   margin-bottom: 20px;
+
 }
 
-#course-titles{
+.course-titles{
   font-family: Arial;
-  font-size: 18px;
+  font-size: 20px;
   list-style-type: none;
-  margin-left: 20%;
+  margin-left: 5%;
 }
 
 .course-desc {
   display: inline-block;
   margin-left: none;
-  margin-right: 20%;
+  margin-right: 8%;
   padding: none;
+  font-size: 18px;
 }
 
 ul.course-desc {
@@ -194,7 +199,7 @@ ul.club-desc {
 /* ----- Resources CSS ----- */
 .resourcesH{
   font-family: Arial;
-  font-size: 24px;
+  font-size: 28px;
   padding: auto;
   text-align: center;
 }
