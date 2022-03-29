@@ -1,6 +1,6 @@
 /* ----- Header CSS ----- */
 .banner{
-  background-image: url("D:/Senior Project/GitHub/directory/ck-extras/extra/images/day-clouds.gif");
+  background-image: url("G:/Senior Project/GitHub/directory/ck-extras/extra/images/day-clouds.gif");
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -44,7 +44,7 @@ h1{
   font-family: Arial;
 }
 
-#welcome{
+.welcomeH, #welcome{
   font-size: 24px;
   font-family: Arial;
 }
@@ -55,7 +55,9 @@ h1{
 }
 
 #schoolH{
-
+  font-family: Arial;
+  font-size: 28px;
+  text-align: center;
 }
 
 .school-info{
@@ -99,7 +101,7 @@ h1{
 /* ----- About Me CSS ----- */
 .aboutmeH{
   font-family: Arial;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
 }
 
@@ -123,15 +125,47 @@ td{
 }
 
 /* ----- Courses CSS ----- */
-.coursesH{
+#coursesH{
   font-family: Arial;
-  font-size: 24px;
+  font-size: 28px;
+  text-align: center;
 }
 
-#courses{
+.course-titles, .course-desc {
+  text-align: justify;
+  margin-bottom: 20px;
+
+}
+
+.course-titles{
   font-family: Arial;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+.course-desc {
+  display: inline-block;
+  margin-left: none;
+  margin-right: 8%;
+  padding: none;
   font-size: 18px;
 }
+
+ul.course-desc {
+  list-style-type: none;
+}
+
+ul.course-desc > li {
+  text-indent: -20px;
+}
+
+ul.course-desc > li:before {
+  content: "-";
+  text-indent: -20px;
+}
+
+
 /* ----- Clubs CSS ----- */
 ul {
   margin: 0;
@@ -140,18 +174,6 @@ ul {
 ul.club-desc {
   list-style-type: none;
 }
-
-/*
-ul.club-desc > li {
-  text-indent: -20px;
-}
-
-ul.club-desc > li:before {
-   content: "-";
-  text-indent: -20px;
-}
-*/
-
 
 .club-titles{
   font-family: Arial;
@@ -163,6 +185,9 @@ ul.club-desc > li:before {
   font-family: Arial;
   font-size: 18px;
   display: inline-block;
+  text-align: justify;
+  margin-right: 100px;
+  padding: auto;
 }
 
 #clubsH{
@@ -174,16 +199,19 @@ ul.club-desc > li:before {
 /* ----- Resources CSS ----- */
 .resourcesH{
   font-family: Arial;
-  font-size: 24px;
+  font-size: 28px;
+  padding: auto;
+  text-align: center;
 }
 
 #resources{
   font-family: Arial;
   font-size: 18px;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
   overflow: hidden;
+  text-align: center;
 }
 
 #resources li{
