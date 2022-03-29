@@ -128,11 +128,38 @@ td{
   font-size: 24px;
 }
 
-#courses{
+#course-titles, .course-desc {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#course-titles{
   font-family: Arial;
   font-size: 18px;
   list-style-type: none;
+  margin-left: 20%;
 }
+
+.course-desc {
+  display: inline-block;
+  margin-left: none;
+  margin-right: 20%;
+  padding: none;
+}
+
+ul.course-desc {
+  list-style-type: none;
+}
+
+ul.course-desc > li {
+  text-indent: -20px;
+}
+
+ul.course-desc > li:before {
+  content: "-";
+  text-indent: -20px;
+}
+
 
 /* ----- Clubs CSS ----- */
 ul {
@@ -142,18 +169,6 @@ ul {
 ul.club-desc {
   list-style-type: none;
 }
-
-/*
-ul.club-desc > li {
-  text-indent: -20px;
-}
-
-ul.club-desc > li:before {
-   content: "-";
-  text-indent: -20px;
-}
-*/
-
 
 .club-titles{
   font-family: Arial;
