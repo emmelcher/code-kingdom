@@ -6,6 +6,7 @@
   padding: 0;
   overflow: hidden;
   background-color: #333;
+
 }
 
 .banner li{
@@ -105,17 +106,27 @@ h1{
   text-align: center;
 }
 
-#aboutme, #certificates, #contact-info{
+#aboutme{
+  font-family: Arial;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+#certificates{
+  font-family: Arial;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#contact-info{
   font-family: Arial;
   font-size: 18px;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-#certificates{
-  left-margin: auto;
-  right-margin: auto;
 }
 
 td{
@@ -141,14 +152,16 @@ td{
   font-family: Arial;
   font-size: 20px;
   list-style-type: none;
-  margin-left: 5%;
+  margin-left: 20%;
+  margin-right: 18%;
 }
 
 .course-desc {
   display: inline-block;
   margin-left: none;
   margin-right: 8%;
-  padding: none;
+  padding: auto;
+  font-family: Arial;
   font-size: 18px;
 }
 
@@ -158,6 +171,7 @@ ul.course-desc {
 
 ul.course-desc > li {
   text-indent: -20px;
+
 }
 
 ul.course-desc > li:before {
@@ -179,6 +193,8 @@ ul.club-desc {
   font-family: Arial;
   font-size: 20px;
   list-style-type: none;
+  margin-left: 20%;
+  margin-right: 18%;
 }
 
 .club-desc > li{
