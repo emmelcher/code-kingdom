@@ -1,7 +1,20 @@
+/* ----- Background CSS ----- */
+body {
+  background-image: url("G:/Senior Project/GitHub/directory/ck-extras/extra/images/day-clouds.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
 /* ----- Header CSS ----- */
 .banner{
-  background-image: url("G:/Senior Project/GitHub/directory/ck-extras/extra/images/day-clouds.gif");
+  background-color: #ededed;
   list-style-type: none;
+  position: sticky;
+  top: 0;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -78,15 +91,17 @@ h1{
 }
 
 .sch-info-div{
-  margin-left: 20%;
+  position: relative;
+  margin-left: 27%;
   margin-right: 30%;
+  padding: 0;
   object-fit: scale-down;
-  margin-top: 8%;
+  margin-top: 5%;
   font-size: 18px;
 }
 
 .school-location{
-  margin-right: 20%;
+  margin-right: 16%;
   margin-left: 30%;
   object-fit: scale-down;
   margin-bottom: 50px;
@@ -105,17 +120,27 @@ h1{
   text-align: center;
 }
 
-#aboutme, #certificates, #contact-info{
+#aboutme{
+  font-family: Arial;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+#certificates{
+  font-family: Arial;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#contact-info{
   font-family: Arial;
   font-size: 18px;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-#certificates{
-  left-margin: auto;
-  right-margin: auto;
 }
 
 td{
@@ -141,14 +166,16 @@ td{
   font-family: Arial;
   font-size: 20px;
   list-style-type: none;
-  margin-left: 5%;
+  margin-left: 20%;
+  margin-right: 18%;
 }
 
 .course-desc {
   display: inline-block;
   margin-left: none;
   margin-right: 8%;
-  padding: none;
+  padding: auto;
+  font-family: Arial;
   font-size: 18px;
 }
 
@@ -158,13 +185,13 @@ ul.course-desc {
 
 ul.course-desc > li {
   text-indent: -20px;
+
 }
 
 ul.course-desc > li:before {
   content: "-";
   text-indent: -20px;
 }
-
 
 /* ----- Clubs CSS ----- */
 ul {
@@ -179,6 +206,8 @@ ul.club-desc {
   font-family: Arial;
   font-size: 20px;
   list-style-type: none;
+  margin-left: 20%;
+  margin-right: 18%;
 }
 
 .club-desc > li{
@@ -206,27 +235,34 @@ ul.club-desc {
 
 #resources{
   font-family: Arial;
-  font-size: 18px;
-  list-style-type: none;
+  font-size: 20px;
   margin: auto;
   padding: auto;
   overflow: hidden;
   text-align: center;
 }
 
+#resources::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #resources li{
+  list-style-type: none;
   display: inline-block;
+  float: center;
+  width: 10%;
+  padding: 14px 16px;
 }
 
 #resources  a{
-  display: block;
   color: #3a3b3c;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: underline;
 }
 
 #resources img{
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
 }
