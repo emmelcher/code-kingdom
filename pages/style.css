@@ -9,10 +9,6 @@ body {
   background-size: cover;
 }
 
-hr {
-  background-color: black;
-}
-
 /* ----- Header CSS ----- */
 .banner{
   background-color: #333;
