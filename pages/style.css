@@ -1,12 +1,17 @@
 /* ----- Background CSS ----- */
 body {
-  background-image: url("G:/Senior Project/GitHub/directory/ck-extras/extra/images/day-clouds.jpg");
-
+  background-image: url("https://raw.githubusercontent.com/emmelcher/code-kingdom/main/images/day-clouds.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   background-size: cover;
+}
+
+hr {
+  background-color: black;
+  width: 65%;
+  height: 3px;
+  border: transparent;
 }
 
 /* ----- Header CSS ----- */
