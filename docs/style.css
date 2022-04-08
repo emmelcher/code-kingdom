@@ -102,16 +102,75 @@ h1{
   position: relative;
   margin-left: 27%;
   margin-right: 58%;
-  padding: 0;
   margin-top: 5%;
   font-size: 20px;
-  background-color: #fafafa;
   margin-bottom: 80px;
+
+  padding: 15px;
+  background-color: white;
+  -webkit-mask-image:
+    linear-gradient(to top, black 0%, white 100%),
+    linear-gradient(to top, transparent 0%, white 100%),
+    linear-gradient(to right, transparent 0%, white 100%),
+    linear-gradient(to bottom, transparent 0%, white 100%),
+    linear-gradient(to left, transparent 0%, white 100%);
+  -webkit-mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+  -webkit-mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+  -webkit-mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+   -webkit-mask-composite:
+    source-out,
+    source-over,
+    source-over,
+    source-over;
+  mask-image:
+    linear-gradient(to top, black 0%, white 100%),
+    linear-gradient(to top, transparent 0%, white 100%),
+    linear-gradient(to right, transparent 0%, white 100%),
+    linear-gradient(to bottom, transparent 0%, white 100%),
+    linear-gradient(to left, transparent 0%, white 100%);
+  mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+  mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+  mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+  mask-composite:
+    subtract,
+    add,
+    add,
+    add;
 }
 
 .school-location{
   position: absolute;
-  top: 120%;
+  top: 95%;
   left: 50%;
   right: 25%;
   margin:0 auto;
@@ -135,7 +194,6 @@ h1{
   text-align: justify;
   margin-left: 30%;
   margin-right: 30%;
-  background-color: #fafafa;
 }
 
 #certificates{
@@ -144,16 +202,77 @@ h1{
   text-align: justify;
   margin-left: 25%;
   margin-right: 25%;
-  background-color: #fafafa;
 }
 
 #contact-info{
   font-family: Arial;
   font-size: 18px;
   text-align: center;
-  background-color: #fafafa;
   margin-left: 40%;
   margin-right: 40%;
+}
+
+#aboutme, #certificates, #contact-info {
+  padding: 15px;
+  background-color: white;
+  -webkit-mask-image:
+    linear-gradient(to top, black 0%, white 100%),
+    linear-gradient(to top, transparent 0%, white 100%),
+    linear-gradient(to right, transparent 0%, white 100%),
+    linear-gradient(to bottom, transparent 0%, white 100%),
+    linear-gradient(to left, transparent 0%, white 100%);
+  -webkit-mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+  -webkit-mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+  -webkit-mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+   -webkit-mask-composite:
+    source-out,
+    source-over,
+    source-over,
+    source-over;
+  mask-image:
+    linear-gradient(to top, black 0%, white 100%),
+    linear-gradient(to top, transparent 0%, white 100%),
+    linear-gradient(to right, transparent 0%, white 100%),
+    linear-gradient(to bottom, transparent 0%, white 100%),
+    linear-gradient(to left, transparent 0%, white 100%);
+  mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+  mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+  mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+  mask-composite:
+    subtract,
+    add,
+    add,
+    add;
 }
 
 td{
@@ -169,18 +288,73 @@ td{
   text-align: center;
 }
 
-.course-titles, .course-desc {
-  text-align: justify;
-  margin-bottom: 20px;
-
-}
-
 .course-titles{
   font-family: Arial;
   font-size: 20px;
   list-style-type: none;
   margin-left: 20%;
   margin-right: 18%;
+
+  padding: 15px;
+  background-color: white;
+  -webkit-mask-image:
+    linear-gradient(to top, black 0%, white 100%),
+    linear-gradient(to top, transparent 0%, white 100%),
+    linear-gradient(to right, transparent 0%, white 100%),
+    linear-gradient(to bottom, transparent 0%, white 100%),
+    linear-gradient(to left, transparent 0%, white 100%);
+  -webkit-mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+  -webkit-mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+  -webkit-mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+   -webkit-mask-composite:
+    source-out,
+    source-over,
+    source-over,
+    source-over;
+  mask-image:
+    linear-gradient(to top, black 0%, white 100%),
+    linear-gradient(to top, transparent 0%, white 100%),
+    linear-gradient(to right, transparent 0%, white 100%),
+    linear-gradient(to bottom, transparent 0%, white 100%),
+    linear-gradient(to left, transparent 0%, white 100%);
+  mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+  mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+  mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+  mask-composite:
+    subtract,
+    add,
+    add,
+    add;
 }
 
 .course-desc {
@@ -193,7 +367,8 @@ td{
 }
 
 .course-titles, .course-desc {
-  background-color: #fafafa;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
 ul.course-desc {
@@ -225,6 +400,67 @@ ul.club-desc {
   list-style-type: none;
   margin-left: 20%;
   margin-right: 18%;
+
+  padding: 15px;
+  background-color: white;
+  -webkit-mask-image:
+    linear-gradient(to top, black 0%, white 100%),
+    linear-gradient(to top, transparent 0%, white 100%),
+    linear-gradient(to right, transparent 0%, white 100%),
+    linear-gradient(to bottom, transparent 0%, white 100%),
+    linear-gradient(to left, transparent 0%, white 100%);
+  -webkit-mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+  -webkit-mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+  -webkit-mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+   -webkit-mask-composite:
+    source-out,
+    source-over,
+    source-over,
+    source-over;
+  mask-image:
+    linear-gradient(to top, black 0%, white 100%),
+    linear-gradient(to top, transparent 0%, white 100%),
+    linear-gradient(to right, transparent 0%, white 100%),
+    linear-gradient(to bottom, transparent 0%, white 100%),
+    linear-gradient(to left, transparent 0%, white 100%);
+  mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+  mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+  mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+  mask-composite:
+    subtract,
+    add,
+    add,
+    add;
 }
 
 .club-desc > li{
@@ -234,10 +470,6 @@ ul.club-desc {
   text-align: justify;
   margin-right: 100px;
   padding: auto;
-}
-
-.club-titles, .club-desc {
-  background-color: #fafafa;
 }
 
 #clubsH{
