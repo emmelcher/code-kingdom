@@ -9,7 +9,6 @@ It's a website created specifically for one of my teachers at my High School, Mr
 ## Authors
 
 Emily Melcher <br>
-[@milly.exe#7057](https://discordapp.com/users/yourID)
 
 ## Version History
 
